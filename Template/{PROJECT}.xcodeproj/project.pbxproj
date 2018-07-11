@@ -100,6 +100,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42F16F5320E644C000B7D9BF /* Build configuration list for PBXNativeTarget "{PROJECT}" */;
 			buildPhases = (
+				42272F9420E680E30064D00F /* SwiftGen */,
 				42F16F3A20E644C000B7D9BF /* Sources */,
 				42F16F3B20E644C000B7D9BF /* Frameworks */,
 				42F16F3C20E644C000B7D9BF /* Headers */,
@@ -184,6 +185,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase for SwiftGen section */
+		42272F9420E680E30064D00F /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "$SRCROOT/../../tools/swiftgen/run.sh";
+		};
+/* End PBXResourcesBuildPhase for SwiftGen section */
 
 /* Begin PBXSourcesBuildPhase section */
 		42F16F3A20E644C000B7D9BF /* Sources */ = {
