@@ -1,0 +1,6 @@
+input_dir: Sources/
+output_dir: Sources/Generated/
+storyboards:
+  paths: .
+  templateName: swift4
+  output: IB.swift
