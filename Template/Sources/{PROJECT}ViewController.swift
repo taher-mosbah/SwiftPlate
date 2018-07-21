@@ -1,21 +1,14 @@
 import UIKit
 import Core
-import RxSwift
-import RxCocoa
 
-public final class {PROJECT}ViewController:
-    BaseViewController<{PROJECT}State, {PROJECT}Action, {PROJECT}Context>,
-    ActionBindingsInstalling,
-    StateBindingsInstalling
-{
+public final class {PROJECT}ViewController: BaseViewController<{PROJECT}State, {PROJECT}Action, {PROJECT}Context> {
 
-    public func setupStateBindings() {
-        guard let context = self.context else { return }
+    public override func contextDidChange(context: {PROJECT}Context) {
+        super.contextDidChange(context: context)
+        
         self.stateBindings = [
         ]
-    }
-    
-    public func setupActionBindings() {
+        
         self.actionBindings = [
         ]
     }

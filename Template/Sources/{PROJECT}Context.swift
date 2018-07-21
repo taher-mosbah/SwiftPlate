@@ -1,9 +1,5 @@
 import Foundation
-import RxSwift
-import RxCocoa
 import Core
-import Swinject
-import DataAccess
 
 public class {PROJECT}Context: BaseContext<{PROJECT}State, {PROJECT}Action> {
     var routingRequestHandler: RoutingRequestHandler<{PROJECT}Route> {
