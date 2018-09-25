@@ -16,7 +16,7 @@ public class {PROJECT}Module: {PROJECT}ModulePresentableProvider, UserActivityRo
     
     // TODO
     public func stubPresentable() -> Presentable {
-        let viewController = StoryboardScene.ProgramListScenes.initialScene.instantiate()
+        let viewController = StoryboardScene.{PROJECT}Scenes.initialScene.instantiate()
         let context = {PROJECT}Context(
             initialState: {PROJECT}State(),
             dependencyContainer: dependencyContainer
